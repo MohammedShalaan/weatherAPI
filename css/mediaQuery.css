@@ -1,0 +1,144 @@
+/* media query for resposnsive design  */
+
+
+
+/* ======================================================== */
+/* very small screen  */
+/* ======================================================== */
+@media screen and (max-width:514px) {
+    .cardsBox {
+        position: relative !important;
+        top: 50% !important;
+        width: 100%;
+        /* display: none !important; */
+    }
+
+    .afterWeather {
+
+        height: 100vh;
+    }
+
+    .content {
+        height: 200px;
+
+    }
+
+}
+
+
+
+/* ======================================================== */
+/* small screen  */
+/* ======================================================== */
+@media screen and (min-width:515px) and (max-width:750px) {
+    .cardsBox {
+        position: relative !important;
+        top: 50% !important;
+        width: 100%;
+        /* display: none !important; */
+    }
+
+    .afterWeather {
+        background-color: var(--background);
+        height: 100vh;
+    }
+
+    .content {
+        height: 200px;
+
+    }
+}
+
+
+/* ======================================================== */
+/* meduim screen  */
+/* ======================================================== */
+
+
+
+@media screen and (min-width:750px) and (max-width:768px) {
+    .cardsBox {
+        position: relative !important;
+        top: 50% !important;
+        width: 100%;
+        /* display: none !important; */
+    }
+
+    .afterWeather {
+        background-color: var(--background);
+        height: 100vh;
+    }
+
+    .content {
+        height: 200px;
+
+    }
+}
+
+
+
+/* ======================================================== */
+/* larg screen  */
+/* ======================================================== */
+
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    .cardsBox {
+        position: relative !important;
+        top: 50% !important;
+        width: 100%;
+        /* display: none !important; */
+    }
+
+    .afterWeather {
+        background-color: var(--background);
+        height: 100vh;
+    }
+
+    .content {
+        height: 200px;
+
+    }
+
+}
+
+
+/* ========================================================= */
+/* larg screen  */
+/* ======================================================== */
+
+@media screen and (min-width:993px) and (max-width:1200px) {
+    .cardsBox {
+        position: relative !important;
+        top: 50% !important;
+        /* display: none !important; */
+    }
+
+    .afterWeather {
+        background-color: var(--background);
+        height: 70vh;
+    }
+
+    .content {
+        height: 200px;
+
+    }
+}
+
+@media screen and (min-width:1201px) and (max-width:1375px) {
+    .cardsBox {
+        position: relative !important;
+        top: 50% !important;
+        /* display: none !important; */
+    }
+
+    .afterWeather {
+        background-color: var(--background);
+        height: 80vh;
+    }
+
+    .content {
+        height: 200px;
+
+    }
+}

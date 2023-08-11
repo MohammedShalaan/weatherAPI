@@ -1,0 +1,210 @@
+:root {
+    --mainColor: #009ad8;
+    --background: #1e202b;
+    --header-card-weather: rgba(0, 0, 0, 0.1);
+    --all-small-text: #bfc1c8;
+    --card-header: rgba(20, 20, 20, 0.158);
+    --card-header: rgba(20, 20, 20, 0.315);
+
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: var(--mainColor);
+    font-size: 17px;
+    border: 3px solid var(--mainColor);
+    border-radius: 30px;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
+}
+
+.nav-link .active {
+    color: var(--mainColor);
+
+}
+
+.nav-link {
+    font-size: 17px;
+    border-radius: 30px;
+    border: 3px solid rgba(0, 119, 255, 0);
+    transition: 0.2s all ease;
+}
+
+.nav-item {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s all ease;
+
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: var(--mainColor);
+    border: 3px solid var(--mainColor);
+    border-radius: 30px;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    align-items: center;
+}
+
+a img {
+    width: 100px;
+}
+
+
+/* ===================== the serch ================ */
+.input-group .btn {
+    position: relative;
+    right: 97px;
+    z-index: 6;
+    background-color: var(--mainColor);
+    color: black;
+    border-color: var(--mainColor);
+}
+
+.input-group input {
+    background-color: var(--background);
+    color: azure !important;
+    padding-left: 20px;
+    border: none;
+}
+
+::placeholder {
+    color: rgba(240, 255, 255, 0.534) !important;
+    padding-left: 20px;
+}
+
+
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--background);
+    border-color: #86b6fe00;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 109, 253, 0);
+}
+
+/* ===================== content section  ================ */
+.content {
+    height: 400px;
+    background-image: url(../img/banner.webp);
+    background-size: cover;
+}
+
+/* ===================== weather cards ================ */
+.afterWeather {
+    background-color: var(--background);
+    height: 30vh;
+}
+
+.navbar {
+    background-color: var(--background) !important;
+}
+
+.card {
+    width: 390px;
+}
+
+.form-control {
+    height: 60px;
+}
+
+.input-group .btn {
+    top: 20px !important;
+}
+
+
+.card {
+    background-color: #323544;
+    color: #bfc1c8;
+}
+
+.card-header {
+    /* padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x); */
+    margin-bottom: 0;
+    color: white;
+    /* background-color: #323544; */
+    border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
+}
+
+.card-header .filter {
+    background-color: var(--card-header);
+
+}
+
+div:nth-child(2) .card-body {
+
+    background-color: #262936 !important;
+
+}
+
+.card-body .card-text {
+    font-size: 90px !important;
+    font-weight: 500px;
+}
+
+.card-body p {
+    color: var(--mainColor);
+}
+
+.card-body-other .imgWeather {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.card-body-other .card-text {
+    font-size: 30px !important;
+    font-weight: 500px;
+}
+
+
+/* footer  */
+
+footer {
+    background-color: #262936 !important;
+    /* height: 30vh; */
+}
+
+
+/* =======foooter ====== */
+
+.social i {
+    color: var(--mainColor);
+    background-color: var(--background);
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s all ease;
+
+}
+
+.social i:hover {
+    cursor: pointer;
+    color: var(--background);
+    background-color: var(--mainColor);
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s all ease;
+
+}
